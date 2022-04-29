@@ -1,6 +1,6 @@
 package model;
 
-public class RechargeableBattery extends Battery{
+public class RechargeableBattery extends Battery implements Rechargeable{
 	
 	private int chargerNumber;
 	
