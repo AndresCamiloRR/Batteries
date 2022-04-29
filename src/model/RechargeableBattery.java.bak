@@ -48,7 +48,7 @@ public class RechargeableBattery extends Battery implements Rechargeable{
 	
 	public String toString(){
 		
-		return"\nBateria recargable\nNombre:" + name + "\nCosto de vida util:"+calculateUsefulPromLifeCost()+"\n--------";
+		return"\nBateria recargable de tipo" + type + "\nNombre:" + name + "\nCosto de vida util:"+calculateUsefulPromLifeCost()+"\n-----------------------";
 		
 	}
 	
